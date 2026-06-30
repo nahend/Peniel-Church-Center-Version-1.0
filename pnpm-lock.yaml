@@ -4,23 +4,25 @@ settings:
   excludeLinksFromLockfile: false
 importers:
   .:
-    dependencies:
-      turbo:
-        specifier: ^2.4.0
-        version: 2.4.0
     devDependencies:
+      '@types/node':
+        specifier: ^22.10.7
+        version: 22.10.7
       '@typescript-eslint/eslint-plugin':
-        specifier: ^8.11.0
-        version: 8.11.0(@typescript-eslint/parser@8.11.0)(eslint@9.16.0)(typescript@5.7.2)
+        specifier: ^8.0.0
+        version: 8.0.0(@typescript-eslint/parser@8.0.0)(eslint@9.0.0)(typescript@5.7.2)
       '@typescript-eslint/parser':
-        specifier: ^8.11.0
-        version: 8.11.0(eslint@9.16.0)(typescript@5.7.2)
+        specifier: ^8.0.0
+        version: 8.0.0(eslint@9.0.0)(typescript@5.7.2)
       eslint:
-        specifier: ^9.16.0
-        version: 9.16.0
+        specifier: ^9.0.0
+        version: 9.0.0
       prettier:
-        specifier: ^3.3.3
-        version: 3.3.3
+        specifier: ^3.0.0
+        version: 3.0.0
+      turbo:
+        specifier: ^2.0.0
+        version: 2.0.0
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
@@ -55,29 +57,29 @@ importers:
         version: link:../../packages/workflows
       framer-motion:
         specifier: ^11.18.2
-        version: 11.18.2(react-dom@19.0.0-rc-66cd14d6-20241206)(react@19.0.0-rc-66cd14d6-20241206)
+        version: 11.18.2(react-dom@19.0.0-rc.7)(react@19.0.0-rc.7)
       next:
         specifier: ^15.1.4
-        version: 15.1.4(react-dom@19.0.0-rc-66cd14d6-20241206)(react@19.0.0-rc-66cd14d6-20241206)
+        version: 15.1.4(react-dom@19.0.0-rc.7)(react@19.0.0-rc.7)
       react:
         specifier: ^19.0.0
-        version: 19.0.0-rc-66cd14d6-20241206
+        version: 19.0.0-rc.7
       react-dom:
         specifier: ^19.0.0
-        version: 19.0.0-rc-66cd14d6-20241206(react@19.0.0-rc-66cd14d6-20241206)
+        version: 19.0.0-rc.7(react@19.0.0-rc.7)
       react-hook-form:
         specifier: ^7.54.2
-        version: 7.54.2(react@19.0.0-rc-66cd14d6-20241206)
+        version: 7.54.2(react@19.0.0-rc.7)
       zod:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
       '@types/react':
-        specifier: ^19.0.7
-        version: 19.0.7
+        specifier: ^19.0.0
+        version: 19.0.0
       '@types/react-dom':
-        specifier: ^19.0.3
-        version: 19.0.3
+        specifier: ^19.0.0
+        version: 19.0.0
   apps/website:
     dependencies:
       '@next/env':
@@ -109,29 +111,29 @@ importers:
         version: link:../../packages/workflows
       framer-motion:
         specifier: ^11.18.2
-        version: 11.18.2(react-dom@19.0.0-rc-66cd14d6-20241206)(react@19.0.0-rc-66cd14d6-20241206)
+        version: 11.18.2(react-dom@19.0.0-rc.7)(react@19.0.0-rc.7)
       next:
         specifier: ^15.1.4
-        version: 15.1.4(react-dom@19.0.0-rc-66cd14d6-20241206)(react@19.0.0-rc-66cd14d6-20241206)
+        version: 15.1.4(react-dom@19.0.0-rc.7)(react@19.0.0-rc.7)
       react:
         specifier: ^19.0.0
-        version: 19.0.0-rc-66cd14d6-20241206
+        version: 19.0.0-rc.7
       react-dom:
         specifier: ^19.0.0
-        version: 19.0.0-rc-66cd14d6-20241206(react@19.0.0-rc-66cd14d6-20241206)
+        version: 19.0.0-rc.7(react@19.0.0-rc.7)
       react-hook-form:
         specifier: ^7.54.2
-        version: 7.54.2(react@19.0.0-rc-66cd14d6-20241206)
+        version: 7.54.2(react@19.0.0-rc.7)
       zod:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
       '@types/react':
-        specifier: ^19.0.7
-        version: 19.0.7
+        specifier: ^19.0.0
+        version: 19.0.0
       '@types/react-dom':
-        specifier: ^19.0.3
-        version: 19.0.3
+        specifier: ^19.0.0
+        version: 19.0.0
   packages/auth:
     devDependencies:
       typescript:
@@ -146,10 +148,10 @@ importers:
     dependencies:
       react:
         specifier: ^19.0.0
-        version: 19.0.0-rc-66cd14d6-20241206
+        version: 19.0.0-rc.7
       react-hook-form:
         specifier: ^7.54.2
-        version: 7.54.2(react@19.0.0-rc-66cd14d6-20241206)
+        version: 7.54.2(react@19.0.0-rc.7)
       zod:
         specifier: ^3.24.1
         version: 3.24.1
@@ -171,10 +173,10 @@ importers:
     dependencies:
       react:
         specifier: ^19.0.0
-        version: 19.0.0-rc-66cd14d6-20241206
+        version: 19.0.0-rc.7
       react-dom:
         specifier: ^19.0.0
-        version: 19.0.0-rc-66cd14d6-20241206(react@19.0.0-rc-66cd14d6-20241206)
+        version: 19.0.0-rc.7(react@19.0.0-rc.7)
     devDependencies:
       typescript:
         specifier: ^5.7.2
@@ -208,46 +210,33 @@ packages:
     resolution: {directory: packages/utils, type: directory}
   '@peniel/workflows':
     resolution: {directory: packages/workflows, type: directory}
-  '@types/react@19.0.7':
-    resolution: {integrity: sha512-yDW5Hjanxy/eY2A6X5ciBmvArO8MDJ3+5mHJAUW5qmeAH0A29+PoXkqJ8Oo44nP5RQmvfxn5v1vY/r7u7xNqA==}
-  '@types/react-dom@19.0.3':
-    resolution: {integrity: sha512-LcIoJnlAzxixZlU1JJSvEAMKQwIbVYmqvSNNFiNcqPW5y5hLqZ7GyPwKvS4L9VCsJBCGRYnHwVT1CkCZ+OKHA==}
+  '@types/node@22.10.7':
+    resolution: {integrity: sha512-TOScEf1BbEcehJCR0TsJwFKfSEbPXVGHsVmGl2+LjFv/gzPb2lxXDhQ2ykBIyAr9xM8L5LpZQXNrZRrqPLCRqQ==}
+  '@types/react@19.0.0':
+    resolution: {integrity: sha512-3hNiUCMxTZ7n7tZCJkLqnc+lWMaS6hEt2l+p4MHCNm2hRSRZLQKp0gw4hJLXy8lFSVCJjZfG6RN8vNYmKFNw==}
+  '@types/react-dom@19.0.0':
+    resolution: {integrity: sha512-w5xN5mJdXaFvpL/tBdIZlOY+C1jZ4g50x6m5t79yJ+5f4n8v7+tDCYtEPLJWjwvXTh8F9u2P5p/M6xsW0IIYGg==}
+  '@typescript-eslint/eslint-plugin@8.0.0':
+    resolution: {integrity: sha512-L+fHEVp+mW7FN6L9R+1ZMq+MWwbdqHLSdH2bJTi5bBGT5mHAX7s3MpQZ7gKdQkV5rWB4hLe0k6gEA4MFz2rRyw==}
+  '@typescript-eslint/parser@8.0.0':
+    resolution: {integrity: sha512-T1pjR3lIJVUk2Rb5u6+3F5qT3s7cOZJmF9l0Bz0tRcZOqNvkD+MdHULqAVTLGqxW8bZDL4gG3CiP7_G2LcUEQ==}
+  eslint@9.0.0:
+    resolution: {integrity: sha512-UKSqVUJq+NsGJYLWL9+UKkf8nOW9K5g3gNUW8xWb9+1H7K8CpwAEqq9xnDrMl+fvqqQ9y5LyQhqSzJ3p0jIjg==}
   framer-motion@11.18.2:
     resolution: {integrity: sha512-Uj5Px6DUXl48jSbN+bY+NhG/L9/Hd3aXLJ0+M2m2GjXPJ7aBhbM9F5CsV4cGQj0uM9r9jknxCNfXNqo3bWwbQ==}
-    peerDependencies:
-      react: ^18.0.0 || ^19.0.0
-      react-dom: ^18.0.0 || ^19.0.0
   next@15.1.4:
     resolution: {integrity: sha512-UWOLIc+UH1ijcH8DT7MFxZiJJ9xKoAKqWGnC7qAqLWzMzJAyb0yNMQVjGCuoY8dDR40pIGrfXWE4U6pDqZRiDg==}
-    peerDependencies:
-      '@opentelemetry/api': ^1.1.0
-      react: ^18.17.0 || ^19.0.0-rc.0 || ^19.0.0-rc.1 || ^19.0.0-rc.2 || ^19.0.0-rc.3
-      react-dom: ^18.17.0 || ^19.0.0-rc.0 || ^19.0.0-rc.1 || ^19.0.0-rc.2 || ^19.0.0-rc.3
-  react-dom@19.0.0-rc-66cd14d6-20241206:
-    resolution: {integrity: sha512-qNqzfZu3jZiFR5yBZlCE6bbEvPP26sEJN+r7hjdaF6NPwqWY2V0eHWu0zLJqI+wGBqJ8B/WcYPAKaEINQvgPEQ==}
-    peerDependencies:
-      react: 19.0.0-rc-66cd14d6-20241206
+  prettier@3.0.0:
+    resolution: {integrity: sha512-L/r/r+g+BKwotBvBRP5KB3BRzd546+q2npa+RSvyc1u+Vm3dJ81Fxym4XP9ANsXN66pydisAm9sSfo0SUa1ZDQ==}
+  react@19.0.0-rc.7:
+    resolution: {integrity: sha512-7+4Gn/7eCqGHnMT8j1nXFUQfh8vB9mKJYXw8lZL1K8v4U9LSL/cXoR6aXhwKYKhJ6QS8blkJKy/Vr3PnXzV2g==}
+  react-dom@19.0.0-rc.7:
+    resolution: {integrity: sha512-qxO7Yd3bz6oCv6DPfLz/9GXDK0dJPdEJx4XqKJfJJqfH5pNk9Tf8qrRu8X0z2vKQDn3yPxjBuLOmPcKjgJYxw==}
   react-hook-form@7.54.2:
     resolution: {integrity: sha512-L91bHGS4N3a3Sz7+Kn6j8aBdLVs3YrI8wQ9W4kDVHWgRqkBiT0k9wfMYFxS9YwBqCUhRp/fPNNVwVQVoU3wA8A==}
-    peerDependencies:
-      react: ^16.8.0 || ^17 || ^18 || ^19
-  react@19.0.0-rc-66cd14d6-20241206:
-    resolution: {integrity: sha512-6Ni9YBEqTxfxbgf1K7wHWMxWbS8cqk/cBCCVIGCE8Vop4pqZBZ5DBLH9I4Vy/s8yrN1dO1D1aXPfCqqMlvhCw==}
-  turbo@2.4.0:
-    resolution: {integrity: sha512-J3RiIoHLIwKx1n9xfFqwOHHCZ/QpXA0X9jUwVcDXHR3I6G2S5Rm5f0HiLWnY5KZxuczHkKQHQRJTOiKzJg3PQ==}
-    hasBin: true
+  turbo@2.0.0:
+    resolution: {integrity: sha512-JZWZ5RmJZpyM0yZqe5Q8vVQW3PlCn3O8l8XoVP7e5m5qm5+qrJ5L0VU3E6nnFfXwNnvlKJJi/v0BvLlZGfQ==}
   typescript@5.7.2:
     resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsudvVywXuoKlbQrCpo5pjMHObm74vSsT+VRe92UvYcPZn4mWY2B6V60jP/R35gfIGA==}
-    hasBin: true
   zod@3.24.1:
     resolution: {integrity: sha512-muH7gBL9sI1nciMZV67X5ShMSNrW7JlMRwl9RFDN7lqEM9HNrF2ccaNZcHbkQRcG5/o+O2jVzaS7qaTA/tMEQ==}
-  eslint@9.16.0:
-    resolution: {integrity: sha512-whsJtJDgVB4Z/qPPkB+xV/VF5kOv8XCr4xGBN0sR/j/k4KSqV0s/X5vPVo8WcsISEhKvw0SHqhH8FXf5JQVXQ==}
-    hasBin: true
-  prettier@3.3.3:
-    resolution: {integrity: sha512-i2tDNA0O5IUZq/2aPEDe2J2DFFEDJnYLpszVrOya0UTmxg7EoKT8XS/PJRQ2akUUM5J/8nBBZeklZkl/DHWbg==}
-    hasBin: true
-  '@typescript-eslint/eslint-plugin@8.11.0':
-    resolution: {integrity: sha512-HV5xK8TI3VdOgZxQqJMJMvGE8iqEe9g25vkKKoAoC2p3GrGpYMyERqB1Q0GpMbSu8p0R6xD3YtQRRzN7gEBgkA==}
-  '@typescript-eslint/parser@8.11.0':
-    resolution: {integrity: sha512-V5WMnMDqKzJbnEb0ExXd+fVVBXaP6dWU4tCnW9k7jK7zLCLHuHPuMR65SxfOC1s8rJu5VbXmO5k+OVzP/9X5w==}
