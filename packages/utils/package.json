@@ -1,1 +1,17 @@
-{"name":"@peniel/utils","version":"1.0.0","private":true,"type":"module","main":"src/index.ts","scripts":{"build":"tsc -p tsconfig.json --noEmit","lint":"eslint src --max-warnings=0","test":"echo 'tests pending for @peniel/utils'","typecheck":"tsc -p tsconfig.json --noEmit"},"dependencies":{},"devDependencies":{}}
+{
+  "name": "@peniel/utils",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint src --max-warnings=0",
+    "test": "echo 'tests pending for @peniel/utils'",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.6.0"
+  }
+}

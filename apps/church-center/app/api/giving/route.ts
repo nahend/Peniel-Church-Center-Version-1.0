@@ -1,2 +1,7 @@
 import { NextResponse } from "next/server";
-export async function GET(){ return NextResponse.json({ methods: ["Tithe.ly", "Zelle", "PayPal", "Stripe", "CashApp", "Venmo"] }); }
+import { getGivingMethods } from "@peniel/database";
+
+export async function GET() {
+  const methods = await getGivingMethods();
+  return NextResponse.json({ methods });
+}
