@@ -1,0 +1,253 @@
+lockfileVersion: '9.0'
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+importers:
+  .:
+    dependencies:
+      turbo:
+        specifier: ^2.4.0
+        version: 2.4.0
+    devDependencies:
+      '@typescript-eslint/eslint-plugin':
+        specifier: ^8.11.0
+        version: 8.11.0(@typescript-eslint/parser@8.11.0)(eslint@9.16.0)(typescript@5.7.2)
+      '@typescript-eslint/parser':
+        specifier: ^8.11.0
+        version: 8.11.0(eslint@9.16.0)(typescript@5.7.2)
+      eslint:
+        specifier: ^9.16.0
+        version: 9.16.0
+      prettier:
+        specifier: ^3.3.3
+        version: 3.3.3
+      typescript:
+        specifier: ^5.7.2
+        version: 5.7.2
+  apps/church-center:
+    dependencies:
+      '@next/env':
+        specifier: ^15.1.4
+        version: 15.1.4
+      '@peniel/auth':
+        specifier: workspace:*
+        version: link:../../packages/auth
+      '@peniel/database':
+        specifier: workspace:*
+        version: link:../../packages/database
+      '@peniel/forms':
+        specifier: workspace:*
+        version: link:../../packages/forms
+      '@peniel/notifications':
+        specifier: workspace:*
+        version: link:../../packages/notifications
+      '@peniel/types':
+        specifier: workspace:*
+        version: link:../../packages/types
+      '@peniel/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
+      '@peniel/utils':
+        specifier: workspace:*
+        version: link:../../packages/utils
+      '@peniel/workflows':
+        specifier: workspace:*
+        version: link:../../packages/workflows
+      framer-motion:
+        specifier: ^11.18.2
+        version: 11.18.2(react-dom@19.0.0-rc-66cd14d6-20241206)(react@19.0.0-rc-66cd14d6-20241206)
+      next:
+        specifier: ^15.1.4
+        version: 15.1.4(react-dom@19.0.0-rc-66cd14d6-20241206)(react@19.0.0-rc-66cd14d6-20241206)
+      react:
+        specifier: ^19.0.0
+        version: 19.0.0-rc-66cd14d6-20241206
+      react-dom:
+        specifier: ^19.0.0
+        version: 19.0.0-rc-66cd14d6-20241206(react@19.0.0-rc-66cd14d6-20241206)
+      react-hook-form:
+        specifier: ^7.54.2
+        version: 7.54.2(react@19.0.0-rc-66cd14d6-20241206)
+      zod:
+        specifier: ^3.24.1
+        version: 3.24.1
+    devDependencies:
+      '@types/react':
+        specifier: ^19.0.7
+        version: 19.0.7
+      '@types/react-dom':
+        specifier: ^19.0.3
+        version: 19.0.3
+  apps/website:
+    dependencies:
+      '@next/env':
+        specifier: ^15.1.4
+        version: 15.1.4
+      '@peniel/auth':
+        specifier: workspace:*
+        version: link:../../packages/auth
+      '@peniel/database':
+        specifier: workspace:*
+        version: link:../../packages/database
+      '@peniel/forms':
+        specifier: workspace:*
+        version: link:../../packages/forms
+      '@peniel/notifications':
+        specifier: workspace:*
+        version: link:../../packages/notifications
+      '@peniel/types':
+        specifier: workspace:*
+        version: link:../../packages/types
+      '@peniel/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
+      '@peniel/utils':
+        specifier: workspace:*
+        version: link:../../packages/utils
+      '@peniel/workflows':
+        specifier: workspace:*
+        version: link:../../packages/workflows
+      framer-motion:
+        specifier: ^11.18.2
+        version: 11.18.2(react-dom@19.0.0-rc-66cd14d6-20241206)(react@19.0.0-rc-66cd14d6-20241206)
+      next:
+        specifier: ^15.1.4
+        version: 15.1.4(react-dom@19.0.0-rc-66cd14d6-20241206)(react@19.0.0-rc-66cd14d6-20241206)
+      react:
+        specifier: ^19.0.0
+        version: 19.0.0-rc-66cd14d6-20241206
+      react-dom:
+        specifier: ^19.0.0
+        version: 19.0.0-rc-66cd14d6-20241206(react@19.0.0-rc-66cd14d6-20241206)
+      react-hook-form:
+        specifier: ^7.54.2
+        version: 7.54.2(react@19.0.0-rc-66cd14d6-20241206)
+      zod:
+        specifier: ^3.24.1
+        version: 3.24.1
+    devDependencies:
+      '@types/react':
+        specifier: ^19.0.7
+        version: 19.0.7
+      '@types/react-dom':
+        specifier: ^19.0.3
+        version: 19.0.3
+  packages/auth:
+    devDependencies:
+      typescript:
+        specifier: ^5.7.2
+        version: 5.7.2
+  packages/database:
+    devDependencies:
+      typescript:
+        specifier: ^5.7.2
+        version: 5.7.2
+  packages/forms:
+    dependencies:
+      react:
+        specifier: ^19.0.0
+        version: 19.0.0-rc-66cd14d6-20241206
+      react-hook-form:
+        specifier: ^7.54.2
+        version: 7.54.2(react@19.0.0-rc-66cd14d6-20241206)
+      zod:
+        specifier: ^3.24.1
+        version: 3.24.1
+    devDependencies:
+      typescript:
+        specifier: ^5.7.2
+        version: 5.7.2
+  packages/notifications:
+    devDependencies:
+      typescript:
+        specifier: ^5.7.2
+        version: 5.7.2
+  packages/types:
+    devDependencies:
+      typescript:
+        specifier: ^5.7.2
+        version: 5.7.2
+  packages/ui:
+    dependencies:
+      react:
+        specifier: ^19.0.0
+        version: 19.0.0-rc-66cd14d6-20241206
+      react-dom:
+        specifier: ^19.0.0
+        version: 19.0.0-rc-66cd14d6-20241206(react@19.0.0-rc-66cd14d6-20241206)
+    devDependencies:
+      typescript:
+        specifier: ^5.7.2
+        version: 5.7.2
+  packages/utils:
+    devDependencies:
+      typescript:
+        specifier: ^5.7.2
+        version: 5.7.2
+  packages/workflows:
+    devDependencies:
+      typescript:
+        specifier: ^5.7.2
+        version: 5.7.2
+packages:
+  '@next/env@15.1.4':
+    resolution: {integrity: sha512-S0tB/XMM5eXzCp+XmO3BjP7A7DRvD5/lOH/mH2RjVJZpxUhSBjYMtHHTQMw5OzWXvF5SLpEESpXvFZxLKuFrjA==}
+  '@peniel/auth':
+    resolution: {directory: packages/auth, type: directory}
+  '@peniel/database':
+    resolution: {directory: packages/database, type: directory}
+  '@peniel/forms':
+    resolution: {directory: packages/forms, type: directory}
+  '@peniel/notifications':
+    resolution: {directory: packages/notifications, type: directory}
+  '@peniel/types':
+    resolution: {directory: packages/types, type: directory}
+  '@peniel/ui':
+    resolution: {directory: packages/ui, type: directory}
+  '@peniel/utils':
+    resolution: {directory: packages/utils, type: directory}
+  '@peniel/workflows':
+    resolution: {directory: packages/workflows, type: directory}
+  '@types/react@19.0.7':
+    resolution: {integrity: sha512-yDW5Hjanxy/eY2A6X5ciBmvArO8MDJ3+5mHJAUW5qmeAH0A29+PoXkqJ8Oo44nP5RQmvfxn5v1vY/r7u7xNqA==}
+  '@types/react-dom@19.0.3':
+    resolution: {integrity: sha512-LcIoJnlAzxixZlU1JJSvEAMKQwIbVYmqvSNNFiNcqPW5y5hLqZ7GyPwKvS4L9VCsJBCGRYnHwVT1CkCZ+OKHA==}
+  framer-motion@11.18.2:
+    resolution: {integrity: sha512-Uj5Px6DUXl48jSbN+bY+NhG/L9/Hd3aXLJ0+M2m2GjXPJ7aBhbM9F5CsV4cGQj0uM9r9jknxCNfXNqo3bWwbQ==}
+    peerDependencies:
+      react: ^18.0.0 || ^19.0.0
+      react-dom: ^18.0.0 || ^19.0.0
+  next@15.1.4:
+    resolution: {integrity: sha512-UWOLIc+UH1ijcH8DT7MFxZiJJ9xKoAKqWGnC7qAqLWzMzJAyb0yNMQVjGCuoY8dDR40pIGrfXWE4U6pDqZRiDg==}
+    peerDependencies:
+      '@opentelemetry/api': ^1.1.0
+      react: ^18.17.0 || ^19.0.0-rc.0 || ^19.0.0-rc.1 || ^19.0.0-rc.2 || ^19.0.0-rc.3
+      react-dom: ^18.17.0 || ^19.0.0-rc.0 || ^19.0.0-rc.1 || ^19.0.0-rc.2 || ^19.0.0-rc.3
+  react-dom@19.0.0-rc-66cd14d6-20241206:
+    resolution: {integrity: sha512-qNqzfZu3jZiFR5yBZlCE6bbEvPP26sEJN+r7hjdaF6NPwqWY2V0eHWu0zLJqI+wGBqJ8B/WcYPAKaEINQvgPEQ==}
+    peerDependencies:
+      react: 19.0.0-rc-66cd14d6-20241206
+  react-hook-form@7.54.2:
+    resolution: {integrity: sha512-L91bHGS4N3a3Sz7+Kn6j8aBdLVs3YrI8wQ9W4kDVHWgRqkBiT0k9wfMYFxS9YwBqCUhRp/fPNNVwVQVoU3wA8A==}
+    peerDependencies:
+      react: ^16.8.0 || ^17 || ^18 || ^19
+  react@19.0.0-rc-66cd14d6-20241206:
+    resolution: {integrity: sha512-6Ni9YBEqTxfxbgf1K7wHWMxWbS8cqk/cBCCVIGCE8Vop4pqZBZ5DBLH9I4Vy/s8yrN1dO1D1aXPfCqqMlvhCw==}
+  turbo@2.4.0:
+    resolution: {integrity: sha512-J3RiIoHLIwKx1n9xfFqwOHHCZ/QpXA0X9jUwVcDXHR3I6G2S5Rm5f0HiLWnY5KZxuczHkKQHQRJTOiKzJg3PQ==}
+    hasBin: true
+  typescript@5.7.2:
+    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsudvVywXuoKlbQrCpo5pjMHObm74vSsT+VRe92UvYcPZn4mWY2B6V60jP/R35gfIGA==}
+    hasBin: true
+  zod@3.24.1:
+    resolution: {integrity: sha512-muH7gBL9sI1nciMZV67X5ShMSNrW7JlMRwl9RFDN7lqEM9HNrF2ccaNZcHbkQRcG5/o+O2jVzaS7qaTA/tMEQ==}
+  eslint@9.16.0:
+    resolution: {integrity: sha512-whsJtJDgVB4Z/qPPkB+xV/VF5kOv8XCr4xGBN0sR/j/k4KSqV0s/X5vPVo8WcsISEhKvw0SHqhH8FXf5JQVXQ==}
+    hasBin: true
+  prettier@3.3.3:
+    resolution: {integrity: sha512-i2tDNA0O5IUZq/2aPEDe2J2DFFEDJnYLpszVrOya0UTmxg7EoKT8XS/PJRQ2akUUM5J/8nBBZeklZkl/DHWbg==}
+    hasBin: true
+  '@typescript-eslint/eslint-plugin@8.11.0':
+    resolution: {integrity: sha512-HV5xK8TI3VdOgZxQqJMJMvGE8iqEe9g25vkKKoAoC2p3GrGpYMyERqB1Q0GpMbSu8p0R6xD3YtQRRzN7gEBgkA==}
+  '@typescript-eslint/parser@8.11.0':
+    resolution: {integrity: sha512-V5WMnMDqKzJbnEb0ExXd+fVVBXaP6dWU4tCnW9k7jK7zLCLHuHPuMR65SxfOC1s8rJu5VbXmO5k+OVzP/9X5w==}
