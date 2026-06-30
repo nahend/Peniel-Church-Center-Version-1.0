@@ -25,7 +25,8 @@
     "@peniel/forms": "workspace:*",
     "@peniel/database": "workspace:*",
     "@peniel/notifications": "workspace:*",
-    "@peniel/utils": "workspace:*"
+    "@peniel/utils": "workspace:*",
+    "tailwindcss": "^4.0.0"
   },
   "devDependencies": {
     "@types/react": "^19.0.7",
