@@ -1,0 +1,3 @@
+import { NextResponse } from "next/server";
+export async function GET(){ return NextResponse.json({ items: [], indexes: ["byStatus", "byPhone"] }); }
+export async function POST(request: Request){ const body = await request.json(); return NextResponse.json({ id: crypto.randomUUID(), ...body, status: "PENDING" }, { status: 201 }); }
