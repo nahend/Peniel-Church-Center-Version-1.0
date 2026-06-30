@@ -1,0 +1,3 @@
+import { GlassCard, Pill } from "@peniel/ui/index";
+const metrics=["Pending Members","Purchase Requests","Budget Requests","Program Requests","Notifications","Recent Activity","Website Analytics"];
+export default function Dashboard(){return <main className="mx-auto max-w-7xl px-6 py-10"><Pill>Super Admin Console</Pill><h1 className="mt-6 text-5xl font-semibold">Church Center Dashboard</h1><div className="mt-10 grid gap-4 md:grid-cols-3">{metrics.map((m,i)=><GlassCard key={m}><p className="text-sm text-slate-400">{m}</p><strong className="mt-3 block text-3xl">{i+3}</strong></GlassCard>)}</div></main>}
